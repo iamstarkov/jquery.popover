@@ -14,19 +14,19 @@ Use it like: `$('.smth').popover('show');`
 
 ## Options ##
 
-Change default options:
+**Change default options:**
     
     $.fn.popover.options = {
         autoOpen: true
     };
 
-Change options per selectors group:
+**Change options per selectors group:**
 
     $('.smth').popover({
         effect: 'bounce'
     });
 
-Change options per custom dom elements:
+**Change options per custom DOM elements:**
     
     <a
         href="http://example.com"
@@ -55,7 +55,7 @@ Change options per custom dom elements:
 
 Use it like options for modifying existing plugin logic or add your one.
 
-## Available callbacks ##
+### Available callbacks ###
 
     beforeCreate: null,
     afterCreate: null,
