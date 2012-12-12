@@ -14,7 +14,7 @@ var $input = $('input');
 $.fn.popover({
 	position: 'right',
 	autoOpen: false,
-	content: html || $this.data('popoverContent') || title
+	content: 'title'
 })
 
 'basic.operation'
@@ -314,7 +314,6 @@ $.fn.popover.options = {
 	autoOpen: false,
 	notify: false,
 	delay: 4000,
-	duration: 2000,
 	effect: 'fade',
 	speed: 'fast',
 	margin: 4,
